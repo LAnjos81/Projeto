@@ -104,3 +104,6 @@ font-size: 14px;
 }
  }
 
+ body{
+    cursor: url(agulha.cur), auto;
+ }
