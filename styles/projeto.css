@@ -1,0 +1,106 @@
+
+
+
+main {
+background-color: rgb(172, 222,224);
+}
+    
+header {
+background-color: rgb(172, 222,224);
+width: 100%;
+
+
+}
+
+p { text-align: center}
+
+secton id{
+    direction: flex;
+    text-align: center;
+}
+.gallery img {
+width: 250px;
+margin: 10px;
+border-radius: 8px;
+}
+
+.video {
+height: 350px;
+border-radius: 20px;
+margin: auto
+
+
+}
+
+
+
+.logo{
+    width: 100%;
+}
+
+
+nav a {
+color: black;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+section {
+padding: 20px;
+background-color: rgb(172, 222,224);
+color: black;
+border-radius: 10px;
+}
+
+.contentor{
+display: flex;
+align-items: center;
+gap: 20px; 
+}
+
+.contentor img{
+
+width: 250px;
+height: auto;
+}
+
+.contentor p{
+    font-size: 18px;
+    text-align:justify
+}
+
+.voltar{
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: rgb(245, 178, 182);
+color: rgb(0, 0, 0);
+z-index: 10;
+padding: 20px 10px;
+border-radius: 30px;
+
+}
+
+
+footer {
+text-align: center;
+padding: 15px;
+background-color: rgb(172, 222,224);
+color: whitesmoke;
+
+}
+
+
+@media (max-width:768px){
+h1{
+font-size: 32px;
+}
+h2{
+font-size: 20px;
+}
+p{
+font-size: 14px;
+}
+ }
+
