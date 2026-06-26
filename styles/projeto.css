@@ -1,14 +1,18 @@
 /* --- Configurações Gerais --- */
 body {
-    /* Se a sua imagem for .png (Recomendado por ser mais fácil de criar) */
     cursor: url('../img/agulha.png'), auto;
-    
-    /* OU se a sua imagem for .cur */
-    /* cursor: url('../img/agulha.cur'), auto; */
-
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(172, 222, 224);
+    background-color: rgb(172, 222, 224); /* A sua cor original */
+}
+
+/* Força a agulha nos links e botões sem alterar o fundo */
+a, button, input, textarea, select {
+    cursor: url('../img/agulha.png'), pointer !important;
+}
+
+main {
+    background-color: rgb(172, 222, 224); /* Mantida a sua cor */
 }
 
 main {
